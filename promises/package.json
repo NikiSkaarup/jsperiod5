@@ -1,0 +1,23 @@
+{
+  "name": "promises",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "ex1": "node ./src/ex1.js",
+    "ex2": "node ./src/ex2.js",
+    "ex3": "node ./src/ex3.js",
+    "ex4": "node ./src/ex4.js",
+    "dev1": "nodemon ./src/ex1.js",
+    "dev2": "nodemon ./src/ex2.js",
+    "dev3": "nodemon ./src/ex3.js",
+    "dev4": "nodemon ./src/ex4.js"
+  },
+  "dependencies": {
+    "express": "^4.16.2",
+    "node-fetch": "^1.7.3"
+  },
+  "devDependencies": {
+    "nodemon": "^1.12.1"
+  }
+}

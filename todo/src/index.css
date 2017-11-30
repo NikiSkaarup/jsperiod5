@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  padding: 20px;
+  font-family: sans-serif;
+}
+
+ul.todos {
+  list-style-type: none;
+}
+
+
+
+ul.header li {
+  display: inline;
+  list-style-type: none;
+  margin: 0;
+}
+
+ul.header {
+  background-color: steelblue;
+  padding: 0;
+}
+
+ul.header li a {
+  color: #FFF;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 10px;
+  display: inline-block;
+}
+.active {
+  background-color: lightsteelblue;
+}

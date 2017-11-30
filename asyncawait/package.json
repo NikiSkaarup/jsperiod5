@@ -1,0 +1,25 @@
+{
+  "name": "asyncawait",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "ex1": "node ./src/ex1.js",
+    "ex2": "node ./src/ex2.js",
+    "ex3": "node ./src/ex3.js",
+    "ex4": "node ./src/ex4.js",
+    "ex5": "node ./src/ex5.js",
+    "dev1": "nodemon ./src/ex1.js",
+    "dev2": "nodemon ./src/ex2.js",
+    "dev3": "nodemon ./src/ex3.js",
+    "dev4": "nodemon ./src/ex4.js",
+    "dev5": "nodemon ./src/ex5.js"
+  },
+  "devDependencies": {
+    "nodemon": "^1.12.1"
+  },
+  "dependencies": {
+    "node-fetch": "^1.7.3",
+    "performance-now": "^2.1.0"
+  }
+}
